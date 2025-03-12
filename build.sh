@@ -12,6 +12,9 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y tmux zsh btop fastfetch ripgrep fd-find
 
+# remove firefox in favour of using the flatpak
+dnf5 remove -y firefox
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
