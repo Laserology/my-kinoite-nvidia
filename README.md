@@ -1,5 +1,11 @@
 # image-template
 
+# How to switch (don't actually use this)
+
+```bash
+sudo bootc switch --enforce-container-sigpolicy ghcr.io/sose/my-kinoite-nvidia:latest
+```
+
 # Purpose
 
 This repository is meant to be a template for building your own custom Universal Blue image. This template is the recommended way to make customizations to any image published by the Universal Blue Project:
