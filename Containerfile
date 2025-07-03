@@ -1,4 +1,4 @@
-FROM ghcr.io/ublue-os/kinoite-nvidia:latest
+FROM ghcr.io/ublue-os/kinoite-main:latest
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:stable
